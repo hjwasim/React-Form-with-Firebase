@@ -1,0 +1,83 @@
+/* User Page styles */
+
+.user-container {
+    display:flex;
+   flex-direction:column;
+   justify-content:center
+}
+
+.user-details-model > div {
+  display:flex;
+  justify-content:space-even;
+  align-items:center;
+  width: 400px;
+  margin:6px;
+  border: 1px solid #cc2a49;
+  border-bottom-width:4px;
+  border-radius: .25rem;
+  padding: .75rem 1rem;
+  font-family:sans-serif;
+}
+
+/* Input fields model */
+div > input {
+    background: none;
+    min-width:200px;
+    border-style:none;
+    border-bottom:1px solid #000;
+}
+
+/* Description model */
+div > textarea {
+  width:323px;
+  max-width:323px;
+  min-height:14px;
+  height:100px;
+  resize:none;
+  background:none;
+  border-style:none;
+  border-bottom:1px solid #000;
+}
+
+/* details view model */
+div > span {
+  background: none;
+  min-width:200px;
+  width:323px;
+  overflow-wrap: break-word;
+  min-height:14px;
+  max-height:100px;
+  overflow-y:auto;
+}
+
+/* Gender view model */
+div > ul {
+list-style-type: none;
+display: flex;
+align-items:center;
+margin:0;
+padding:0;
+}
+
+ul > li {
+ display:flex;
+color: #cc2a49;
+font-family:sans-serif;
+
+}
+
+ul > label {
+font-family:sans-serif;
+font-size:.9rem;
+margin:0
+}
+li > input {
+  max-height:10px;
+}
+
+/* buttons model */
+.btn {
+  display:flex;
+  justify-content:center
+}
+
