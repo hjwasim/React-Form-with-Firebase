@@ -14,21 +14,8 @@ function Form(props) {
   const onSubmit = (values) => {
     //Add user data to Firebase
     FIREBASE.push(values);
-    
-    //Get Current Key from Firebase and Pass it via URL
-    FIREBASE.on("value", async (snapshot) => {
-      let value = await snapshot.val();
-      let data = [];
-      if (value) {
-        for (let key in value) {
-          data.push({ key, ...value[key] });
-        }
-        const { key } = data[data.length - 1];
-
-        // props from react-router-dom
-        props.history.push(`/user/${key}`);
-      }
-    });
+   // props from react-router-dom
+    props.history.push('/users');
   };
 
   return (

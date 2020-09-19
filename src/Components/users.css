@@ -1,0 +1,54 @@
+/* User Page styles */
+
+.user-container {
+    display:flex;
+   flex-direction:column;
+   justify-content:center
+}
+
+
+
+
+
+
+/* Gender view model */
+div > ul {
+list-style-type: none;
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin:0;
+padding:0;
+}
+
+.users > li {
+ display:flex;
+color: #cc2a49;
+font-family:sans-serif;
+display:flex;
+justify-content:space-even;
+align-items:center;
+width: 400px;
+margin:6px;
+border: 1px solid #cc2a49;
+border-bottom-width:4px;
+border-radius: .25rem;
+padding: .5rem 1rem;
+font-family:sans-serif;
+}
+
+.model > div {
+  width: 400px;
+}
+ul > li {
+ font-weight: bold;
+ display:flex;
+ justify-content:space-between;
+}
+
+li > button {
+margin: 0;
+height:24px;
+padding:5px;
+}
+
